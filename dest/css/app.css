@@ -1,4 +1,4 @@
-﻿body{
+body{
     overflow-y:auto;
     overflow-x:hidden;
 }
@@ -51,9 +51,6 @@
     border-style: solid;
     border-width: 0px 0px 2px 2px;
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 .yd-hd a:active:after{
@@ -166,8 +163,6 @@
     margin:0 0.36rem;
     background-color:#ffe0ad;
     position: relative;
-    -webkit-border-radius : 0.2rem;
-    -moz-border-radius : 0.2rem;
     border-radius : 0.2rem;
 }
 .regular .hd{
@@ -212,19 +207,20 @@
 .yd-pop-box .c{
     width:100%;
     height:100%;
-    display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .yd-pop-box .bd{
     width:60%;
     margin:0 auto;
     -webkit-align-self: center;
-    -moz-align-self: center;
     -o-align-self: center;
     -ms-align-self: center;
+    -ms-flex-item-align: center;
     align-self: center;
     position: relative;
 }
@@ -238,8 +234,6 @@
     overflow:hidden;
 }
 .yd-pop-box .bd .btn{
-    -webkit-border-radius :0.6rem;
-    -moz-border-radius :0.6rem;
     border-radius :0.6rem;
     color:#fff;
     text-align: center;

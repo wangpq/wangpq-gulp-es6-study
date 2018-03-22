@@ -4,6 +4,7 @@ import gztUtil from "./gztUtil"
 import {dynsite,urlconfig} from "./urlconfig"
 
 class App{
+    
   constructor(){
     this._init();
     this.controls();
